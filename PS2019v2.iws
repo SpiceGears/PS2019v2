@@ -1,128 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3e15107-5b73-4d1c-953d-dcacb915429e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/MultiReversiblePathReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathEncoderFollower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathReaderMultiDirectional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/ResetEncoderPos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/ReversiblePathReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/RobotPose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/ScaledPathReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/autoModes/TestAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLScale_Preferences.bot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLScale_left.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLScale_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLScale_right.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLScale_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_Preferences.bot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_left.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_right.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartRScale_Preferences.bot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartRScale_left.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartRScale_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartRScale_right.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartRScale_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LCube_LScale.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LCube_LScale_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LCube_LScale_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LCube_LScale_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_Init.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_Init_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_Init_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_Init_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_RCube.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_RCube_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_RCube_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_RCube_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLScale.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLScale_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLScale_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLScale_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_left.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_right.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_source.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_v2_left.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_v2_right.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_v2_source.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartRScale.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartRScale_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartRScale_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartRScale_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_LCube.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_LCube_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_LCube_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_LCube_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_RScale.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_RScale_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_RScale_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_RScale_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/RCube_RScale_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/RCube_RScale_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/RCube_RScale_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/LSwitch_MCube.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/LSwitch_MCube_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/LSwitch_MCube_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/LSwitch_MCube_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_LSwitch.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_LSwitch_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_LSwitch_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_LSwitch_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_RSwitch.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_RSwitch_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_RSwitch_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_RSwitch_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartLSwitch_Preferences.bot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartLSwitch_left.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartLSwitch_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartLSwitch_right.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartLSwitch_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartLSwitch_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitchBackwards_Preferences.bot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitchBackwards_left.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitchBackwards_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitchBackwards_right.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitchBackwards_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitch_Preferences.bot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitch_left.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitch_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitch_right.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitch_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitch_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStart_LSwitch_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStart_LSwitch_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStart_LSwitch_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/PeoriaMStartLSwitch.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/PeoriaMStartRSwitch.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/RSwitch_MCube.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/RSwitch_MCube_left_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/RSwitch_MCube_right_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/RSwitch_MCube_source_detailed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/annotation-processors.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PS2019v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PS2019v2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PS2019v2.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/PS2019v2.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PS2019v2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/PS2019v2.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java" afterDir="false" />
-    </list>
+    <list default="true" id="d3e15107-5b73-4d1c-953d-dcacb915429e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -180,7 +59,17 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PS2019v2" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -249,7 +138,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathEncoderFollower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1236">
+            <state relative-caret-position="-527">
               <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -783,6 +672,12 @@
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
@@ -991,7 +886,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2912254" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2912254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1015,10 +910,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1314,7 +1209,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathEncoderFollower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1236">
+        <state relative-caret-position="-527">
           <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
