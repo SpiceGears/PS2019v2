@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3e15107-5b73-4d1c-953d-dcacb915429e" name="Default Changelist" comment="" />
+    <list default="true" id="d3e15107-5b73-4d1c-953d-dcacb915429e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS2019v2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/PS2019v2.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathEncoderFollower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathEncoderFollower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5883/autoModes/TestAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/autoModes/TestAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paths/TestPaths/Smode2_left.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/paths/TestPaths/Smode2_left.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paths/TestPaths/Smode2_right.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/paths/TestPaths/Smode2_right.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paths/TestPaths/Smode2_source.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/paths/TestPaths/Smode2_source.csv" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -91,10 +105,10 @@
         <counts>
           <entry key="bot" value="1" />
           <entry key="class" value="1" />
-          <entry key="csv" value="22" />
+          <entry key="csv" value="26" />
           <entry key="gradle" value="4" />
           <entry key="groovy" value="2" />
-          <entry key="java" value="136" />
+          <entry key="java" value="150" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -102,32 +116,32 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="6" />
-          <entry key="JAVA" value="136" />
-          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="JAVA" value="150" />
+          <entry key="PLAIN_TEXT" value="27" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="129" />
-          <entry key="java" value="1319" />
+          <entry key="java" value="1718" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="129" />
-          <entry key="JAVA" value="1319" />
+          <entry key="JAVA" value="1718" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/autoModes/TestAuto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="187">
+              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,11 +149,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/paths/TestPaths/Smode3_left.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-818">
+              <caret line="67" column="72" lean-forward="true" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathEncoderFollower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-527">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="245">
+              <caret line="109" column="62" lean-forward="true" selection-start-line="109" selection-start-column="62" selection-end-line="109" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,31 +171,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/motion/TFPID.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.pathfinder/Pathfinder-Java/1.8/f99c341d8a52f2445060989aef1af8ab7bb458ed/Pathfinder-Java-1.8-sources.jar!/jaci/pathfinder/Pathfinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="340">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/motion/TrapezoidalMotionProfile.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.pathfinder/Pathfinder-Java/1.8/f99c341d8a52f2445060989aef1af8ab7bb458ed/Pathfinder-Java-1.8-sources.jar!/jaci/pathfinder/followers/EncoderFollower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/MultiReversiblePathReader.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/robot/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="121" column="34" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
+            <state relative-caret-position="240">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/paths/TestPaths/Smode2_left.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -187,6 +228,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>turnSensitivity</find>
+    </findStrings>
     <dirStrings>
       <dir>C:\Users\dell\.gradle\caches\modules-2\files-2.1\edu.wpi.first.wpilibj\wpilibj-java\2018.3.2\e3191e0075cf0e5d1e953ff8b854db3c716ee73f\wpilibj-java-2018.3.2.jar!\edu\wpi\first\wpilibj</dir>
     </dirStrings>
@@ -664,11 +708,11 @@
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/Converter.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Robot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/MultiReversiblePathReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathEncoderFollower.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/autoModes/TestAuto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/MultiReversiblePathReader.java" />
       </list>
     </option>
   </component>
@@ -682,7 +726,7 @@
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="16" />
     <option name="y" value="-22" />
     <option name="width" value="1346" />
@@ -781,6 +825,13 @@
             </path>
             <path>
               <item name="PS2019v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PS2019v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="paths" type="462c0819:PsiDirectoryNode" />
+              <item name="TestPaths" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PS2019v2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -797,7 +848,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536957460108" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541887442134" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -886,7 +937,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2912254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.290469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -915,6 +966,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2912254" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Build Variants" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Build" order="10" visible="true" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -935,8 +1016,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/PreAutoDefault.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/Constants.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/Tank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1048,13 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.pathfinder/Pathfinder-Java/1.8/f99c341d8a52f2445060989aef1af8ab7bb458ed/Pathfinder-Java-1.8-sources.jar!/jaci/pathfinder/Pathfinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.edu.wpi.first/GradleRIO/2018.06.21/5d0c19756d840a793a4f55e85d646278c512819f/GradleRIO-2018.06.21-sources.jar!/edu/wpi/first/gradlerio/frc/FRCJavaArtifact.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1080,27 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/robot/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.pathfinder/Pathfinder-Java/1.8/f99c341d8a52f2445060989aef1af8ab7bb458ed/Pathfinder-Java-1.8-sources.jar!/jaci/pathfinder/Trajectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1142,13 +1193,6 @@
     <entry file="file://$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_left.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.pathfinder/Pathfinder-Java/1.8/f99c341d8a52f2445060989aef1af8ab7bb458ed/Pathfinder-Java-1.8-sources.jar!/jaci/pathfinder/followers/EncoderFollower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="993">
-          <caret line="80" column="66" selection-start-line="80" selection-start-column="66" selection-end-line="80" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
@@ -1170,15 +1214,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/autoModes/TestAuto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/paths/TestPaths/Smode2_right.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/motion/TFPID.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1187,12 +1224,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/paths/TestPaths/Smode2_left.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/motion/TrapezoidalMotionProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="-680">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
@@ -1207,10 +1241,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/TestPaths/Smode2_left.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/robot/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.pathfinder/Pathfinder-Java/1.8/f99c341d8a52f2445060989aef1af8ab7bb458ed/Pathfinder-Java-1.8-sources.jar!/jaci/pathfinder/Trajectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="51" column="72" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.pathfinder/Pathfinder-Java/1.8/f99c341d8a52f2445060989aef1af8ab7bb458ed/Pathfinder-Java-1.8-sources.jar!/jaci/pathfinder/followers/EncoderFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.pathfinder/Pathfinder-Java/1.8/f99c341d8a52f2445060989aef1af8ab7bb458ed/Pathfinder-Java-1.8-sources.jar!/jaci/pathfinder/Pathfinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/TestPaths/Smode3_left.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-818">
+          <caret line="67" column="72" lean-forward="true" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathEncoderFollower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="245">
+          <caret line="109" column="62" lean-forward="true" selection-start-line="109" selection-start-column="62" selection-end-line="109" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/autoModes/TestAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

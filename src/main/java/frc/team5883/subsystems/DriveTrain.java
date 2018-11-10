@@ -26,8 +26,8 @@ public class DriveTrain extends Subsystem {
     private final SpeedController speedController1 = RobotMap.driveTrainSpeedController1;
     private final SpeedController speedController2 = RobotMap.driveTrainSpeedController2;
     private final RobotDrive robotDrive41 = RobotMap.driveTrainRobotDrive41;
-    public final Encoder encoderRight = new Encoder(18, 19);
-    private final Encoder encoderLeft = new Encoder(16, 17, true);
+    public final Encoder encoderRight = new Encoder(16, 17, true);
+    private final Encoder encoderLeft = new Encoder(18, 19, false);
     public ADXRS450_Gyro gyro = new ADXRS450_Gyro(SPI.Port.kOnboardCS0);
     
     private Constants constants;
@@ -64,7 +64,7 @@ public class DriveTrain extends Subsystem {
 	}
 
     public int getRPosition(){
-    	return (int) encoderRight.getDistance();
+    	return (int) -encoderRight.getDistance();
     	
     }
 
