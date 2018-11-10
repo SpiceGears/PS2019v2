@@ -13,6 +13,7 @@ import edu.wpi.first.wpilibj.networktables.NetworkTable;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
+import frc.team5883.autoModes.TestAuto;
 import frc.team5883.subsystems.DriveTrain;
 import org.opencv.core.Mat;
 import org.opencv.imgproc.Imgproc;
@@ -41,7 +42,7 @@ public class Robot extends IterativeRobot {
         autoChooser = new SendableChooser();
         autoChooser.addDefault("Default Program",  "DriveStright");
         autoChooser.addObject("Nothing1", "Nothing1");
-
+        autoChooser.addObject("Test", "Test");
         SmartDashboard.putData("Autonomous mode chooser", autoChooser );
         Robot.driveTrain.encoderRight.reset();
 
@@ -77,39 +78,41 @@ public class Robot extends IterativeRobot {
 
 
 
-        String gameData = null;
-        gameData = DriverStation.getInstance().getGameSpecificMessage();
+//        String gameData = null;
+//        gameData = DriverStation.getInstance().getGameSpecificMessage();
 
-        int retries = 100;
-
-        while(gameData.length() < 2 && retries > 0) {
-            retries--;
-            try {
-                Thread.sleep(25);
-            } catch (InterruptedException e) {
-
-            }
-
-            gameData = DriverStation.getInstance().getGameSpecificMessage();
-
-        }
-        if(gameData.length() > 0) {
-            Constants.getConstants().setGameData(gameData);
-        }
+//        int retries = 100;
+//
+//        while(gameData.length() < 2 && retries > 0) {
+//            retries--;
+//            try {
+//                Thread.sleep(25);
+//            } catch (InterruptedException e) {
+//
+//            }
+//
+//            gameData = DriverStation.getInstance().getGameSpecificMessage();
+//
+//        }
+//        if(gameData.length() > 0) {
+//            Constants.getConstants().setGameData(gameData);
+//        }
 
 
         switch (autoChooser.getSelected()) {
             case "Nothing1":
                 autonomousCommand = null;
                 break;
+            case "Test":
+                autonomousCommand = new TestAuto();
 
             default:
-                //autonomousCommand = new DriveThreeMeter();
+                autonomousCommand = new TestAuto();
                 break;
         }
 
 
-        //autonomousCommand = (Command) autoChooser.getSelected();
+        //autonomousCommand = new TestAuto();
         autonomousCommand.start();
 
     }
@@ -117,7 +120,7 @@ public class Robot extends IterativeRobot {
 
     public void autonomousPeriodic() {
         Scheduler.getInstance().run();
-        Robot.driveTrain.updateAuto();
+       // Robot.driveTrain.updateAuto();
 
     }
 

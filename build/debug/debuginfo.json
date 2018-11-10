@@ -1,0 +1,44 @@
+[
+  {
+    "artifact": "LeftStart_v2",
+    "target": "roborio",
+    "debugfile": "LeftStart_v2_roborio.debugconfig",
+    "project": "PS2019v2",
+    "language": "java"
+  },
+  {
+    "artifact": "frcJava",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "PS2019v2",
+    "language": "java"
+  },
+  {
+    "artifact": "leftPaths",
+    "target": "roborio",
+    "debugfile": "leftPaths_roborio.debugconfig",
+    "project": "PS2019v2",
+    "language": "java"
+  },
+  {
+    "artifact": "middlePaths",
+    "target": "roborio",
+    "debugfile": "middlePaths_roborio.debugconfig",
+    "project": "PS2019v2",
+    "language": "java"
+  },
+  {
+    "artifact": "rightPaths",
+    "target": "roborio",
+    "debugfile": "rightPaths_roborio.debugconfig",
+    "project": "PS2019v2",
+    "language": "java"
+  },
+  {
+    "artifact": "testPaths",
+    "target": "roborio",
+    "debugfile": "testPaths_roborio.debugconfig",
+    "project": "PS2019v2",
+    "language": "java"
+  }
+]

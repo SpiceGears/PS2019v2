@@ -1,7 +1,9 @@
 plugins {
     id "java"
-    id "edu.wpi.first.GradleRIO" version "2018.06.21"
-    id 'idea'
+    id "jaci.openrio.gradle.GradleRIO" version "2018.03.06"
+    //id "edu.wpi.first.GradleRIO" version "2018.06.21"
+    //id "jaci.gradle.EmbeddedTools" version "2018.08.26"
+    //id "jaci.openrio.gradle.GradleRIO" version "2018.01.22"
 }
 
 def ROBOT_CLASS = "frc.team5883.robot.Robot"
@@ -10,17 +12,50 @@ def ROBOT_CLASS = "frc.team5883.robot.Robot"
 // This is added by GradleRIO's backing project EmbeddedTools.
 deploy {
     targets {
-        target("roborio", edu.wpi.first.gradlerio.frc.RoboRIO) {
+        target("roborio", jaci.openrio.gradle.frc.RoboRIO) {
             // Team can be overridden by command line, for use with VSCode
-            team = getTeamOrDefault(5883)
+            team = 5883
+            user = 'admin'         // User to login as. Required.
+            //password = '2220'
         }
     }
     artifacts {
-        artifact('frcJava', edu.wpi.first.gradlerio.frc.FRCJavaArtifact) {
+        artifact('frcJava', jaci.openrio.gradle.frc.FRCJavaArtifact) {
             targets << "roborio"
             // Debug can be overridden by command line, for use with VSCode
-            debug = getDebugOrDefault(false)
+            //debug = getDebugOrDefault(false)
         }
+
+        artifact('leftPaths', jaci.gradle.deploy.artifact.FileCollectionArtifact) {
+            files = project.fileTree(dir: 'src/paths/LeftStart', include: '*.csv')
+            directory = '/home/lvuser/paths/LeftStart/'
+            targets << "roborio"
+        }
+
+        artifact('middlePaths', jaci.gradle.deploy.artifact.FileCollectionArtifact) {
+            files = project.fileTree(dir: 'src/paths/MiddleStart', include: '*.csv')
+            directory = '/home/lvuser/paths/MiddleStart/'
+            targets << "roborio"
+        }
+
+        artifact('rightPaths', jaci.gradle.deploy.artifact.FileCollectionArtifact) {
+            files = project.fileTree(dir: 'src/paths/RightStart', include: '*.csv')
+            directory = '/home/lvuser/paths/RightStart/'
+            targets << "roborio"
+        }
+        artifact('testPaths', jaci.gradle.deploy.artifact.FileCollectionArtifact) {
+            files = project.fileTree(dir: 'src/paths/TestPaths')
+            directory = '/home/lvuser/paths/TestPaths/'
+            targets << "roborio"
+        }
+
+        artifact('LeftStart_v2', jaci.gradle.deploy.artifact.FileCollectionArtifact) {
+            files = project.fileTree(dir: 'src/paths/LeftStart_v2', include: '*.csv')
+            directory = '/home/lvuser/paths/LeftStart_v2/'
+            targets << "roborio"
+        }
+
+
     }
 }
 
@@ -38,7 +73,7 @@ dependencies {
 // knows where to look for our Robot Class.
 jar {
     from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
-    manifest edu.wpi.first.gradlerio.GradleRIOPlugin.javaManifest(ROBOT_CLASS)
+    manifest jaci.openrio.gradle.GradleRIOPlugin.javaManifest(ROBOT_CLASS)
 }
 
 task wrapper(type: Wrapper) {

@@ -15,6 +15,9 @@ import edu.wpi.first.wpilibj.SpeedController;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import jaci.pathfinder.Pathfinder;
+import jaci.pathfinder.PathfinderJNI;
+import jaci.pathfinder.followers.EncoderFollower;
 
 public class DriveTrain extends Subsystem {
 
@@ -37,7 +40,9 @@ public class DriveTrain extends Subsystem {
     DrivetrainController controller;
     
     public DriveTrain() {
-    	
+
+    	robotDrive41.setSafetyEnabled(false);
+
         speedPID = new SpeedPID();
     	encoderRight.setMaxPeriod(.1);
     	encoderRight.setMinRate(10);
@@ -58,34 +63,60 @@ public class DriveTrain extends Subsystem {
     	setDefaultCommand(new Drive());
 	}
 
-    public double getDistanceInMeters(){
-    	return encoderRight.getDistance()/4332;
+    public int getRPosition(){
+    	return (int) encoderRight.getDistance();
     	
     }
-    
-    public void setSpeedRobot(double speed) {
-        SmartDashboard.putNumber("Speed z Trapezu", speed);
-        
-        if (getActualSpeed() < speed) {
-        	powerForSpeed += 0.01;
-        }else if (getActualSpeed() >= speed) {
-        	powerForSpeed -= 0.01;
-        } else {
-        	powerForSpeed = 0;
-        }
-        
-        SmartDashboard.putNumber("Speed na silniki DriveTrain", speedPID.calculate(speed, getActualSpeed()));
-        double turn = (gyro.getAngle()*constants.Gyro_kP)*(1/getActualSpeed());
-        
-        if(turn>constants.maxTurnValue) {
-        	turn = constants.maxTurnValue;
-        } else if(turn < -constants.maxTurnValue) {
-        	turn = -constants.maxTurnValue;
-        }
-        
-    	robotDrive41.arcadeDrive(speedPID.calculate(speed, getActualSpeed()), turn);
-        //robotDrive41.arcadeDrive(powerForSpeed, gyro.getAngle()*constants.Gyro_kP);
+
+	public int getLPosition(){
+		return (int) encoderLeft.getDistance();
+
+	}
+
+	public void driveSet(double left, double right){
+        robotDrive41.tankDrive(left, right);
     }
+
+    public double getAvgPosition() {
+        return (Math.abs(getLPosition()) + Math.abs(getRPosition())) / 2;
+    }
+
+
+	/*
+
+	BARDZO STARY CODE DO TRAPEZU I JAZDY XD
+
+	 */
+
+	public double getDistanceInMeters(){
+		return encoderRight.getDistance()/4332;
+
+	}
+
+
+	public void setSpeedRobot(double speed) {
+		SmartDashboard.putNumber("Speed z Trapezu", speed);
+
+		if (getActualSpeed() < speed) {
+			powerForSpeed += 0.01;
+		}else if (getActualSpeed() >= speed) {
+			powerForSpeed -= 0.01;
+		} else {
+			powerForSpeed = 0;
+		}
+
+		SmartDashboard.putNumber("Speed na silniki DriveTrain", speedPID.calculate(speed, getActualSpeed()));
+		double turn = (gyro.getAngle()*constants.Gyro_kP)*(1/getActualSpeed());
+
+		if(turn>constants.maxTurnValue) {
+			turn = constants.maxTurnValue;
+		} else if(turn < -constants.maxTurnValue) {
+			turn = -constants.maxTurnValue;
+		}
+
+		robotDrive41.arcadeDrive(speedPID.calculate(speed, getActualSpeed()), turn);
+		//robotDrive41.arcadeDrive(powerForSpeed, gyro.getAngle()*constants.Gyro_kP);
+	}
 
     
     public void driveStraight(double speed, double dystansMeter){
@@ -139,8 +170,8 @@ public class DriveTrain extends Subsystem {
      	
     	 
     	 
-    	 SmartDashboard.putData(encoderRight);
-    	 SmartDashboard.putData(encoderLeft);
+    	 SmartDashboard.putNumber("Left distance: ", getLPosition());
+    	 SmartDashboard.putNumber("Right distance: ", getRPosition());
 
     	 
     	 
@@ -183,6 +214,7 @@ public class DriveTrain extends Subsystem {
     
     public void resetEncoder(){
     	encoderRight.reset();
+    	encoderLeft.reset();
     }
     
     public double getActualSpeed(){
@@ -216,8 +248,16 @@ public class DriveTrain extends Subsystem {
 	public boolean isOnTarget() {
 		return onTarget;
 	}
-	
-	}
+
+    public void leftSet(double left) {
+	    robotDrive41.tankDrive(left, 0);
+    }
+
+    public void rightSet(double right) {
+        robotDrive41.tankDrive(0, right);
+
+    }
+}
 	
 
 

@@ -1,7 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3e15107-5b73-4d1c-953d-dcacb915429e" name="Default Changelist" comment="" />
+    <list default="true" id="d3e15107-5b73-4d1c-953d-dcacb915429e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/MultiReversiblePathReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathEncoderFollower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathReaderMultiDirectional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/ResetEncoderPos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/ReversiblePathReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/RobotPose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/auto/ScaledPathReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/autoModes/TestAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLScale_Preferences.bot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLScale_left.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLScale_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLScale_right.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLScale_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_Preferences.bot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_left.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_right.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartRScale_Preferences.bot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartRScale_left.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartRScale_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartRScale_right.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart/LStartRScale_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LCube_LScale.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LCube_LScale_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LCube_LScale_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LCube_LScale_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_Init.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_Init_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_Init_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_Init_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_RCube.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_RCube_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_RCube_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LScale_RCube_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLScale.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLScale_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLScale_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLScale_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_left.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_right.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_source.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_v2_left.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_v2_right.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_v2_source.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartRScale.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartRScale_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartRScale_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LStartRScale_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_LCube.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_LCube_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_LCube_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_LCube_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_RScale.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_RScale_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_RScale_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/LSwitch_RScale_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/RCube_RScale_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/RCube_RScale_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/LeftStart_v2/RCube_RScale_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/LSwitch_MCube.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/LSwitch_MCube_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/LSwitch_MCube_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/LSwitch_MCube_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_LSwitch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_LSwitch_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_LSwitch_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_LSwitch_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_RSwitch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_RSwitch_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_RSwitch_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MCube_RSwitch_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartLSwitch_Preferences.bot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartLSwitch_left.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartLSwitch_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartLSwitch_right.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartLSwitch_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartLSwitch_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitchBackwards_Preferences.bot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitchBackwards_left.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitchBackwards_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitchBackwards_right.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitchBackwards_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitch_Preferences.bot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitch_left.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitch_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitch_right.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitch_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStartRSwitch_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStart_LSwitch_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStart_LSwitch_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/MStart_LSwitch_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/PeoriaMStartLSwitch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/PeoriaMStartRSwitch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/RSwitch_MCube.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/RSwitch_MCube_left_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/RSwitch_MCube_right_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/RSwitch_MCube_source_detailed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paths/MiddleStart/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/annotation-processors.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS2019v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PS2019v2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS2019v2.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/PS2019v2.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS2019v2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/PS2019v2.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -67,30 +188,46 @@
     <session id="-489226790">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="35" />
+          <entry key="bot" value="1" />
+          <entry key="class" value="1" />
+          <entry key="csv" value="22" />
+          <entry key="gradle" value="4" />
+          <entry key="groovy" value="2" />
+          <entry key="java" value="136" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="35" />
+          <entry key="CLASS" value="1" />
+          <entry key="Groovy" value="6" />
+          <entry key="JAVA" value="136" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15" />
+          <entry key="gradle" value="129" />
+          <entry key="java" value="1319" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="Groovy" value="129" />
+          <entry key="JAVA" value="1319" />
         </counts>
       </usages-collector>
     </session>
@@ -98,58 +235,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/controllers/ProfileDriveController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/autoModes/TestAuto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/controllers/ProfileTurnController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/DriveTwoProfile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/Drive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/DriveDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="46" column="64" lean-forward="true" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+            <state relative-caret-position="153">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,19 +247,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/ProfileTurnCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathEncoderFollower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/SpeedCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="-1236">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,36 +259,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/StraightDrive.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/motion/TFPID.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="85">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/motion/TrapezoidalMotionProfile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/MultiReversiblePathReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="121" column="34" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/robot/OI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/robot/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>C:\Users\dell\.gradle\caches\modules-2\files-2.1\edu.wpi.first.wpilibj\wpilibj-java\2018.3.2\e3191e0075cf0e5d1e953ff8b854db3c716ee73f\wpilibj-java-2018.3.2.jar!\edu\wpi\first\wpilibj</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -279,6 +374,10 @@
                 <option name="name" value="simulateExternalCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="deployMiddlePaths" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="jar" />
@@ -328,6 +427,10 @@
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="deployLeftStart_v2" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Run a console displaying output from the default RoboRIO (roborio)" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="riolog" />
@@ -367,6 +470,10 @@
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="deployRightPaths" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by root project 'PS2019v2'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
@@ -379,6 +486,10 @@
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="deployLeftPaths" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Clean Clion IDE Files" />
@@ -399,6 +510,10 @@
                 <option name="description" value="Displays all buildscript dependencies declared in root project 'PS2019v2'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="deployTestPaths" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
@@ -491,9 +606,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4608755414738" />
+        <entry key="$PROJECT_DIR$" value="4608946343092" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2052125914" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2110791886" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1581774035" />
       </map>
     </option>
@@ -509,6 +624,7 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.edu.wpi.first/GradleRIO/2018.06.21/5d0c19756d840a793a4f55e85d646278c512819f/GradleRIO-2018.06.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.jaci.gradle/DeployTools/2018.06.18/16de8e6bffb3e739e33ce24e9b8ec6402a68230e/DeployTools-2018.06.18-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.undercouch/gradle-download-task/3.1.2/a770cf45a3df7a09f2ae9f9d4d781338ca316189/gradle-download-task-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a6dc5db8a12928e583bd3f23e72d3ab611ecd58f/gson-2.2.4-sources.jar" />
@@ -621,7 +737,7 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$" value="IMPORT" />
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
       </map>
     </option>
   </component>
@@ -632,11 +748,9 @@
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/motion/TFPID.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/controllers/ElevatorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/robot/OI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/Drive.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/motion/SpeedPID.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/robot/PortMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Robot.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/DriveDistance.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/controllers/ProfileDriveController.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/controllers/LinearAngularFollowerController.java" />
@@ -645,6 +759,27 @@
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/SpeedCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/StraightDrive.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/ProfileTurnCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/PFTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/Tank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/ClockwiseTurn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/StayInPlace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/RobotPose.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/ReversiblePathReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/ScaledPathReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/ResetEncoderPos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/RelativeTurnToAngle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathReaderMultiDirectional.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PreMatchDefault.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/Converter.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Robot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/robot/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathEncoderFollower.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/autoModes/TestAuto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc/team5883/auto/MultiReversiblePathReader.java" />
       </list>
     </option>
   </component>
@@ -653,8 +788,8 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="11" />
-    <option name="y" value="1" />
+    <option name="x" value="16" />
+    <option name="y" value="-22" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -672,9 +807,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -715,7 +849,16 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="team5883" type="462c0819:PsiDirectoryNode" />
-              <item name="commands.drivetrain" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PS2019v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PS2019v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="team5883" type="462c0819:PsiDirectoryNode" />
+              <item name="autoModes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PS2019v2" type="b2602c69:ProjectViewProjectNode" />
@@ -739,24 +882,17 @@
               <item name="PS2019v2" type="b2602c69:ProjectViewProjectNode" />
               <item name="PS2019v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="team5883" type="462c0819:PsiDirectoryNode" />
-              <item name="robot" type="462c0819:PsiDirectoryNode" />
+              <item name="paths" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PS2019v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PS2019v2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="team5883" type="462c0819:PsiDirectoryNode" />
-              <item name="subsystems" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -766,12 +902,22 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536847628523" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536957460108" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Pro\PS2019v2\src\paths\TestPaths" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="frc.team5883" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Pro\PS2019v2\src\main\java\frc\team5883\robot" />
+      <recent name="F:\Pro\PS2019v2\src" />
       <recent name="F:\Pro\PS2019v2\src\main\java\frc\team5883" />
+      <recent name="F:\Pro\PS2019v2\src\main\java\frc\team5883\robot" />
       <recent name="F:\Pro\PS2019v2\src\main\java\frc\team5883\subsystems" />
     </key>
   </component>
@@ -845,13 +991,14 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2912254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Build Variants" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -861,8 +1008,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Build" order="10" visible="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -893,111 +1040,144 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2018.3.2/66af8fda88c4eea15952cbce6c72b889d551773a/wpilibj-java-2018.3.2-sources.jar!/edu/wpi/first/wpilibj/IterativeRobotBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/PreAutoDefault.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/Constants.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/Tank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+        <state relative-caret-position="408">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/controllers/ElevatorController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/RobotPose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/ReversiblePathReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/ScaledPathReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2018.3.2/66af8fda88c4eea15952cbce6c72b889d551773a/wpilibj-java-2018.3.2-sources.jar!/edu/wpi/first/wpilibj/PIDSourceType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2018.3.2/66af8fda88c4eea15952cbce6c72b889d551773a/wpilibj-java-2018.3.2-sources.jar!/edu/wpi/first/wpilibj/PIDSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2018.3.2/66af8fda88c4eea15952cbce6c72b889d551773a/wpilibj-java-2018.3.2-sources.jar!/edu/wpi/first/wpilibj/PIDController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="193" column="60" selection-start-line="193" selection-start-column="60" selection-end-line="193" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/RelativeTurnToAngle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/ResetEncoderPos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathReaderMultiDirectional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/TestPaths/MovementTest_left.csv" />
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart/LStartLScale_left.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/motion/ProfilePoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/motion/SpeedPID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/motion/TFPID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1664">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/motion/TrapezoidalMotionProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="34" lean-forward="true" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/controllers/DrivetrainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/controllers/LinearAngularFollowerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-539">
-          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/robot/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1681">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#4899#4900#0" expanded="true" />
-            <element signature="e#4944#4945#0" expanded="true" />
-            <element signature="e#7919#7920#0" expanded="true" />
-            <element signature="e#7951#7952#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/robot/RobotMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/robot/PortMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/PreMatchDefault.java" />
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_left_detailed.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/robot/OI.java">
+    <entry file="file://$PROJECT_DIR$/src/paths/TestPaths/Test_left.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_Preferences.bot">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart/LStartLSwitch_right_detailed.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="-1547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2018.3.2/66af8fda88c4eea15952cbce6c72b889d551773a/wpilibj-java-2018.3.2-sources.jar!/edu/wpi/first/wpilibj/RobotDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="706" column="14" selection-start-line="706" selection-start-column="14" selection-end-line="706" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/TestPaths/Test_right.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.pathfinder/Pathfinder-Java/1.8/f99c341d8a52f2445060989aef1af8ab7bb458ed/Pathfinder-Java-1.8-sources.jar!/jaci/pathfinder/Pathfinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.edu.wpi.first/GradleRIO/2018.06.21/5d0c19756d840a793a4f55e85d646278c512819f/GradleRIO-2018.06.21-sources.jar!/edu/wpi/first/gradlerio/frc/FRCJavaArtifact.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-4.7-bin/73xux3q4721jgr4pjvqf9o30/gradle-4.7/lib/groovy-all-2.4.12.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="230" column="38" selection-start-line="230" selection-start-column="38" selection-end-line="230" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1008,82 +1188,215 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/controllers/ProfileDriveController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/subsystems/DriveTrain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/controllers/ProfileTurnController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/Drive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/DriveDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="46" column="64" lean-forward="true" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/DriveTwoProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/SpeedCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/robot/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/StraightDrive.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.pathfinder/Pathfinder-Java/1.8/f99c341d8a52f2445060989aef1af8ab7bb458ed/Pathfinder-Java-1.8-sources.jar!/jaci/pathfinder/Trajectory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="147">
+          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart_v2/LCube_LScale.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart_v2/LCube_LScale_left_detailed.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_v2_source.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4497">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_v2_left.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_source_detailed.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_source.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_right_detailed.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_right.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_left_detailed.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/LeftStart_v2/LStartLSwitch_left.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.pathfinder/Pathfinder-Java/1.8/f99c341d8a52f2445060989aef1af8ab7bb458ed/Pathfinder-Java-1.8-sources.jar!/jaci/pathfinder/followers/EncoderFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="993">
+          <caret line="80" column="66" selection-start-line="80" selection-start-column="66" selection-end-line="80" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="500" column="22" selection-start-line="500" selection-start-column="22" selection-end-line="500" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/TestPaths/Smode_left.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="96" column="73" lean-forward="true" selection-start-line="96" selection-start-column="73" selection-end-line="96" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/autoModes/TestAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/commands.drivetrain/ProfileTurnCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/motion/TFPID.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths/TestPaths/Smode2_left.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/motion/TrapezoidalMotionProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/MultiReversiblePathReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="121" column="34" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc/team5883/auto/PathEncoderFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1236">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PS2019v2_main|PS2019v2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: edu.wpi.first.cscore:cscore-java:1.2.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

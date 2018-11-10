@@ -11,11 +11,31 @@ public class Constants {
 		}
 		return instance;
 	}
-	
+
+	//All Measurements in Inches unless specified otherwise
+
+	public static int encTickPerRev = 4096;
+
+	public static double wheelDiameterIn = 6.0;
+	public static double wheelDiameterMetres = 6/25.4;
+	public static double wheelCircumferenceIn = Math.PI * wheelDiameterIn;
+	public static double wheelCircumferenceMetres = Math.PI * wheelDiameterMetres;
+
+	public static double frameWidthIn = 23.25;
+	public static double frameWidthFt = frameWidthIn / 12.0;
+	public static double frameLengthIn = 32.2;
+
+	public static final double PATH_MAX_SPEED = 1.75;
+
+	public static final int maxDrivetrainVelocity = 3155;
+
+	//public static final double drivetrainMultiplier = 1.93; //GOES PERFECT WHILE DRIVING 5 FT
+	public static final double drivetrainMultiplier = 1.3;
+
 	private String gameData = null;
 	
 	public double MaxSpeedOnScaledrive = 0.4;
-	public static final double DRIVERotacion_kP = 0.3;
+	public static final double DRIVERotacion_kP = 0.2;
 	public double maxTurnValue = 0.35;
 	
 	public double DriveProfile_kV = 0.119;
