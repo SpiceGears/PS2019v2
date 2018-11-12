@@ -4,8 +4,8 @@ https://github.com/wpilibsuite/GradleRIO
 Pathfinder works with:
 https://github.com/JacisNonsense/Pathfinder/
 
-  Victors SP
-  Encoder AMT103-V
+  Victors SP,
+  Encoder AMT103-V,
   Gyro SPI ADXL362 
   
 CSV Pathfinder trajectories generated with: 
